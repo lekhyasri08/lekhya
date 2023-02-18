@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n,k,evensum=0,oddsum=0;
+printf("enter the value of n and k");
+scanf("%d%d",&n,&k);
+printf("Divisible numbers");
+for(i=1;i<=n;i++)
+{
+if(i%k==0)
+{
+printf("%d\t",i);
+if(i%2==0)
+{
+{
+evensum+=i;
+}
+else
+{
+oddsum+=i;
+}
+}
+}
+printf("\neven sum =%d\n odd sum ==%d\n",evensum,oddsum);
+getch();
+}
